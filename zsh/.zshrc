@@ -39,6 +39,7 @@ export BAT_CONFIG_DIR="$HOME/.config/bat"
 export EZA_CONFIG_DIR="$HOME/.config/eza"
 
 alias ff="fastfetch"
+alias cat="bat"
 
 alias ls='eza --group-directories-first --classify --header --icons=auto --git'
 alias ll='eza --long --group-directories-first --classify --header --icons=auto --git'
@@ -66,3 +67,6 @@ bindkey '^[[Z' reverse-menu-complete
 eval "$(zoxide init zsh --cmd cd)"
 source <(fzf --zsh)
 eval "$(starship init zsh)"
+
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
