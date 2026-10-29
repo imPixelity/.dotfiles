@@ -1,0 +1,38 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "white"
+    }
+  },
+  "display": {
+    "separator": "~ ",
+    "color": "1"
+  },
+  "modules": [
+    {
+	"key": "os  ",
+	"type": "os",
+	"format": "{name} {version-id}"
+    },
+    {
+	"key": "ker ",
+	"type": "kernel",
+	"format": "{release}"
+    },
+    {
+	"key": "pkg ",
+	"type": "packages"
+    },
+    {
+	"key": "ter ",
+	"type": "terminal"
+    },
+    {
+	"key": "sh  ",
+	"type": "shell"
+    }
+  ]
+}
