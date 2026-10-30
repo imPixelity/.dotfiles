@@ -1,0 +1,5 @@
+require("plugins.mini")
+require("plugins.treesitter")
+require("plugins.lsp")
+require("plugins.colorscheme")
+require("plugins.cord")

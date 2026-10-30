@@ -1,0 +1,7 @@
+require("vim._core.ui2").enable({})
+require("globals")
+require("options")
+require("autocmds")
+require("keymaps")
+require("pack")
+require("plugins")

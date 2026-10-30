@@ -13,26 +13,26 @@
   },
   "modules": [
     {
-	"key": "os  ",
-	"type": "os",
-	"format": "{name} {version-id}"
+      "key": "os  ",
+      "type": "os",
+      "format": "{name} {version-id}"
     },
     {
-	"key": "ker ",
-	"type": "kernel",
-	"format": "{release}"
+      "key": "ker ",
+      "type": "kernel",
+      "format": "{release}"
     },
     {
-	"key": "pkg ",
-	"type": "packages"
+      "key": "pkg ",
+      "type": "packages"
     },
     {
-	"key": "ter ",
-	"type": "terminal"
+      "key": "ter ",
+      "type": "terminal"
     },
     {
-	"key": "sh  ",
-	"type": "shell"
+      "key": "sh  ",
+      "type": "shell"
     }
   ]
 }
