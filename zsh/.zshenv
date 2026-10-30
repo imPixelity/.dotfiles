@@ -18,7 +18,10 @@ export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 export PATH="$HOME/.opencode/bin:$PATH"
 export PATH="$HOME/Development/flutter/bin:$PATH"
 export PATH="$HOME/Development/scrcpy:$PATH"
-export PATH="$HOME/Development/zig:$PATH"
+
+export GOPATH="$HOME/Development/go"
+export PATH="/usr/local/go/bin:$PATH"
+export PATH="$GOPATH/bin:$PATH"
 
 # PATH: Android SDK
 export PATH="$HOME/Development/android_sdk/cmdline-tools/latest/bin:$PATH"

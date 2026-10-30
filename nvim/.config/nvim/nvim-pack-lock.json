@@ -8,6 +8,10 @@
       "rev": "c75105a726e105f41e8af5e29cd6baed11f4018e",
       "src": "https://github.com/scottmckendry/cyberdream.nvim"
     },
+    "flutter-tools.nvim": {
+      "rev": "7034ae42d5c67708db076d20937c269c6c6e8937",
+      "src": "https://github.com/nvim-flutter/flutter-tools.nvim"
+    },
     "friendly-snippets": {
       "rev": "b2ea5c41a150ba72fb656eedb4ed0a86d138d945",
       "src": "https://github.com/rafamadriz/friendly-snippets"
@@ -23,6 +27,10 @@
     "nvim-treesitter": {
       "rev": "a2f694478be07f89c2d03cc17858a8745a400c4b",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
     }
   }
 }

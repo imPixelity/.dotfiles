@@ -2,13 +2,13 @@ require("nvim-treesitter").setup()
 
 require("nvim-treesitter").install({
     "lua",
-    "zig"
+    "go"
 })
 
 vim.api.nvim_create_autocmd("FileType", {
     pattern = {
         "lua",
-        "zig"
+        "go"
     },
     callback = function()
         vim.treesitter.start()
