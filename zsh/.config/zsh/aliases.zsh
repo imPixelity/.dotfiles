@@ -1,5 +1,6 @@
 alias ff="fastfetch"
 alias cat="bat"
+alias qml="qml-qt6"
 
 alias ls='eza --group-directories-first --classify --header --icons=auto --git'
 alias ll='eza --long --group-directories-first --classify --header --icons=auto --git'
