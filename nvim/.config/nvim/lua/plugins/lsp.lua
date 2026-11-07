@@ -41,8 +41,15 @@ vim.lsp.config("lua_ls", {
     },
 })
 
+vim.lsp.config("qmlls", {
+    on_attach = function(client)
+        client.server_capabilities.semanticTokensProvider = nil
+    end
+})
+
 vim.lsp.enable({
     "lua_ls",
     "qmlls",
-    "gopls"
+    "gopls",
+    "clangd"
 })
