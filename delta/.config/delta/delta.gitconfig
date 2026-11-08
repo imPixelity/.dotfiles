@@ -1,2 +1,11 @@
+# Put this on ~/.gitconfig
+# [include]
+#     path = ~/path/to/delta.gitconfig
+
 [core]
     pager = delta
+[delta]
+    line-numbers = true
+    side-by-side = true
+    navigate = true
+    syntax-theme = Nord
